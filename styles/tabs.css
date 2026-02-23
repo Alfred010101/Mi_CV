@@ -1,0 +1,23 @@
+.tabs {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    display: flex;
+    border-bottom: 2px solid #ddd;
+    padding-top: 10px;
+    z-index: 10;
+}
+
+.tab {
+    padding: 12px 25px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.tab:hover {
+    background-color: #ff5622;
+    color: white;
+}
