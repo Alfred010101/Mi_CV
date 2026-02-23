@@ -40,15 +40,11 @@
 
 .stack li {
     background-color: #2c2c44;
+    color: white;
     padding: 5px 10px;
     border-radius: 20px;
     font-size: 0.8rem;
     list-style: none;
-}
-
-.contact, .skills {
-    text-align: left;
-    margin-bottom: 25px;
 }
 
 .skills ul {
@@ -59,6 +55,11 @@
 .skills ul li {
     margin-bottom: 6px;
     font-style: italic;
+}
+
+.contact, .skills {
+    text-align: left;
+    margin-bottom: 25px;
 }
 
 .contact p {
