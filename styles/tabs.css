@@ -21,3 +21,37 @@
     background-color: #ff5622;
     color: white;
 }
+
+.tab.active {
+    border-bottom: 3px solid #ff5722;
+    color: #ff5722;
+}
+
+.tab.active:hover {
+    border-bottom: 3px solid #ff5722;
+    color: white;
+}
+
+.tab-content {
+    display: none;
+    margin-top: 20px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.tab-content {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    position: absolute;
+    pointer-events: none;
+}
+
+.tab-content.active {
+    opacity: 1;
+    transform: translateY(0);
+    position: relative;
+    pointer-events: auto;
+}
