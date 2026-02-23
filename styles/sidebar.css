@@ -1,0 +1,106 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 100vh;
+    background-color: #1e1e2f;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    overflow-y: auto;
+}
+
+.photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 auto 20px;
+}
+
+.role {
+    margin-bottom: 30px;
+    color: #ff5722;
+    font-weight: 500;
+}
+
+.section-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.stack li {
+    background-color: #2c2c44;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    list-style: none;
+}
+
+.contact, .skills {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.skills ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills ul li {
+    margin-bottom: 6px;
+    font-style: italic;
+}
+
+.contact p {
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+}
+
+.contact i {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.contact a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #ff5722;
+}
+
+.download-section {
+    margin-top: 30px;
+}
+
+.download-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff5722;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #e64a19;
+    transform: translateY(-2px);
+}
